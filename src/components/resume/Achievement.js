@@ -37,7 +37,7 @@ const Achievement = () => {
           <ResumeCard
             title="Citizenship Award"
             subTitle="Bur Oak Secondary School (Jun 2018)"
-            des="Recipient of the Citizenship Award for oustanding effort in the school community"
+            des="Recipient of the Citizenship Award for oustanding effort in the school community."
           />
         </div>
       </div>
