@@ -15,24 +15,24 @@ const Education = () => {
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <h2 className="text-3xl md:text-4xl font-bold">Education</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-[585px] h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-4 w-[585px] h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="B Eng. - Computer Engineering"
             subTitle="Toronto Metropolitan University (2020 - 2024)"
             result="3.5 GPA"
-            des="Relevant Courses: Data Algorithms, Software Design, Computer Architecture"
+            des="Relevant Courses: Data Algorithms, Software Design, Computer Architecture, Operating Systems"
           />
           <ResumeCard
             title="Grade 12"
             subTitle="Ontario Science Centre Science School (2019 - 2020)"
             result="HONOR ROLL"
-            des="Studied in this school from 11th to 12th std. HSC Subjects: PCM, English, Electrical Maintenance, Environment Education. "
+            des="1 of 30 students from all over Ontario to study at the OSCSS."
           />
           <ResumeCard
             title="Grade 9 - 11"
             subTitle="Bur Oak Secondary School (2016 - 2020)"
             result="HONOR ROLL"
-            des="Studied in this school from grade 9 to 11 HSC Subjects: PCM, English, Electrical Maintenance, Environment Education. "
+            des="Studied in this school for grades 9 to 11."
           />
         </div>
       </div>
@@ -40,7 +40,7 @@ const Education = () => {
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <h2 className="text-3xl md:text-4xl font-bold">Certifications</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-4 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Intermediate SQL for Data Analysis Course"
             subTitle="Dataquest.io (Feb 2023)"
@@ -54,7 +54,7 @@ const Education = () => {
           <ResumeCard
             title="Orange Badge I"
             subTitle="Ontario Power Generation (Jun 2022)"
-            des="Certificate for nuclear reactor."
+            des="Certificate for nuclear power plants."
           />
         </div>
       </div>
