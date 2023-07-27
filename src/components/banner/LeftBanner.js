@@ -12,7 +12,7 @@ const LeftBanner = () => {
       delaySpeed: 2000,
     });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+    <div className="w-full lgl:w-1/2 flex flex-col gap-10">
       <div className="flex flex-col gap-5">
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">Rohan Uppal</span>
@@ -31,6 +31,9 @@ const LeftBanner = () => {
       </div>
      {/* Media */}
      <Media />
+     <p className="text-base font-bodyFont leading-6 tracking-wide">
+        "How hard can it be?" - Jeremy Clarkson
+        </p>
     </div>
   );
 }
