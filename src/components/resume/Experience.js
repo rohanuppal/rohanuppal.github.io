@@ -43,6 +43,7 @@ const Experience = () => {
             subTitle2="May 2022 - Dec 2022"
             result="BOWMANVILLE"
             des="Built PowerBI reports, created PowerApps, and worked on projects involving databases."
+            article={"https://medium.com/@rohanuppal35/my-internship-experience-at-opg-767bb97fab12"}
           />
           <ResumeCard
             title="Swimming Instructor"
