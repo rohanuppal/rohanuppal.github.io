@@ -17,6 +17,7 @@ const Achievement = () => {
             subTitle="Innovation Boost Zone (Apr 2023)"
             result="1st"
             des="Thrilled to be one of the Infobesity Challenge winners for designing software that fact-checks information in Youtube videos for mindful information consumption."
+            article={"https://docs.google.com/presentation/d/1ZhJtCdh3roCm-arWipC8uphTWMqkg0J4vvwKsl_t2_8/edit#slide=id.g229b3bbf4b0_6_68"}
           />
           <ResumeCard
             title="Gold Medal in Mathematica Newton Contest"
@@ -33,6 +34,7 @@ const Achievement = () => {
             subTitle="BOLT Hackathon (Feb 2023)"
             result="2nd"
             des="Thrilled to win 2nd Place at the McGill University BOLT Hackathon for designing an AR Navigation and Chatbot integrated website to improve the customer service experience for the retail industry."
+            article={"https://docs.google.com/presentation/d/1glWIYVIooQNmv6lAElKIHbsubKdC1n8Z/edit?usp=sharing&ouid=114499565964058355137&rtpof=true&sd=true&usp=embed_facebook"}
           />
           <ResumeCard
             title="Citizenship Award"
