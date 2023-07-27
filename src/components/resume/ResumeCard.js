@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const ResumeCard = ({title,subTitle1,subTitle2,result,des}) => {
+const ResumeCard = ({title,subTitle1,subTitle2,article,result,des}) => {
   return (
     <div className="w-full h-1/3 group flex">
       <div className="w-10 h-[6px] bgOpacity mt-16 relative">
@@ -31,6 +31,20 @@ const ResumeCard = ({title,subTitle1,subTitle2,result,des}) => {
         <p className="text-sm md:text-base font-medium text-gray-400 group-hover:text-gray-300 duration-300">
           {des}
         </p>
+        {article && (
+          <p className="text-sm text-gray-400 group-hover:text-gray-300 duration-300">
+            Read more about my experience{' '}
+            <a
+              href={article}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-designColor hover:underline"
+            >
+              here
+            </a>
+            .
+          </p>
+        )}
       </div>
     </div>
   );
