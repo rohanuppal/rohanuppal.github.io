@@ -44,14 +44,14 @@ const Projects = () => {
           title="ObjectSwap"
           des="My AR ObjectSwap Project"
           src={projectFive}
-          githubLink="https://github.com/mihirc0111/Weather-Website-UsingAPI--node.js--express.js"
+          githubLink="https://github.com/rohanuppal"
           websiteLink="https://medium.com/@rohanuppal35/objectswap-ar-project-97a97798c115"
         />
         <ProjectsCard
           title="Roll-a-Ball"
           des="My AR Roll-a-Ball Game"
           src={projectSix}
-          githubLink="https://github.com/mihirc0111/Face-Detection-ML-Project-Python.git"
+          githubLink="https://github.com/rohanuppal"
           websiteLink="https://medium.com/@rohanuppal35/my-first-ar-game-6d46465f56b2"
         />
       </div>
