@@ -20,21 +20,21 @@ const Achievement = () => {
             article={"https://docs.google.com/presentation/d/1ZhJtCdh3roCm-arWipC8uphTWMqkg0J4vvwKsl_t2_8/edit#slide=id.g229b3bbf4b0_6_68"}
           />
           <ResumeCard
-            title="Gold Medal in Mathematica Newton Contest"
-            subTitle="Mathematica Centrum (2018)"
-            result="1st"
-            des="Won the gold medal for the Mathematica Newton Contest!"
+            title="BOLT Hackathon Winner"
+            subTitle="BOLT Hackathon (Feb 2023)"
+            result="2nd"
+            des="Thrilled to win 2nd Place at the McGill University BOLT Hackathon for designing an AR Navigation and Chatbot integrated website to improve the customer service experience for the retail industry."
+            article={"https://docs.google.com/presentation/d/1glWIYVIooQNmv6lAElKIHbsubKdC1n8Z/edit?usp=sharing&ouid=114499565964058355137&rtpof=true&sd=true&usp=embed_facebook"}
           />
         </div>
       </div>
       <div className="flex-1">
         <div className="mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BOLT Hackathon Winner"
-            subTitle="BOLT Hackathon (Feb 2023)"
-            result="2nd"
-            des="Thrilled to win 2nd Place at the McGill University BOLT Hackathon for designing an AR Navigation and Chatbot integrated website to improve the customer service experience for the retail industry."
-            article={"https://docs.google.com/presentation/d/1glWIYVIooQNmv6lAElKIHbsubKdC1n8Z/edit?usp=sharing&ouid=114499565964058355137&rtpof=true&sd=true&usp=embed_facebook"}
+            title="Gold Medal in Mathematica Newton Contest"
+            subTitle="Mathematica Centrum (2018)"
+            result="1st"
+            des="Won the gold medal for the Mathematica Newton Contest!"
           />
           <ResumeCard
             title="Citizenship Award"
