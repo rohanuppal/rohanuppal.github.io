@@ -14,10 +14,10 @@ const LeftBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-10">
       <div className="flex flex-col gap-5">
-        <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">Rohan Uppal</span>
+        <h1 className="text-5xl font-bold text-white">
+          <span className="text-designColor capitalize">Rohan Uppal</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-2xl font-bold text-white">
           <span>{text}</span>
           <Cursor
             cursorBlinking="false"
