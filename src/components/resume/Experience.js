@@ -11,7 +11,7 @@ const Experience = () => {
       className="py-12 font-titleFont flex flex-col gap-20 md:flex-row"
     >
       <div>
-        <div className="mt-14 w-[585px] h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Technology Analyst Intern"
             subTitle1="Deloitte"
@@ -19,24 +19,6 @@ const Experience = () => {
             result="TORONTO"
             des="Developed webpages, maintained SQL databases, and conducted e-discovery and computer forensics."
           />
-          <ResumeCard
-            title="Customer Service Rep."
-            subTitle1="Home Depot"
-            subTitle2="May 2021 - Jan 2023"
-            result="MARKHAM"
-            des="Customer service with exceptional communication skills assisting customers proven by; resolving customer complaints and fostering a welcoming environment."
-          />
-          <ResumeCard
-            title="Student Host"
-            subTitle1="Ontario Science Centre"
-            subTitle2="Sep 2019 - Feb 2020"
-            result="TORONTO"
-            des="Ran activities for visitors and assisted scientists in school programs."
-          />
-        </div>
-      </div>
-      <div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Computer Eng. Intern"
             subTitle1="Ontario Power Generation"
@@ -46,11 +28,29 @@ const Experience = () => {
             article={"https://medium.com/@rohanuppal35/my-internship-experience-at-opg-767bb97fab12"}
           />
           <ResumeCard
+            title="Customer Service Rep."
+            subTitle1="Home Depot"
+            subTitle2="May 2021 - Jan 2023"
+            result="MARKHAM"
+            des="Customer service with exceptional communication skills assisting customers proven by; resolving customer complaints and fostering a welcoming environment."
+          />
+        </div>
+      </div>
+      <div>
+        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+          <ResumeCard
             title="Swimming Instructor"
             subTitle1="City of Markham"
             subTitle2="Jul 2019 - Jul 2020"
             result="MARKHAM"
             des="Lead structured swimming classes for various age groups and provided feedback to parents."
+          />
+          <ResumeCard
+            title="Student Host"
+            subTitle1="Ontario Science Centre"
+            subTitle2="Sep 2019 - Feb 2020"
+            result="TORONTO"
+            des="Ran activities for visitors and assisted scientists in school programs."
           />
           <ResumeCard
             title="Innovator"
