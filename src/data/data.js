@@ -9,20 +9,21 @@ import { MdAnalytics } from "react-icons/md";
 export const featuresData = [
   {
     id: 1,
-    title: "Project Management",
-    des: "Want to gain real-life experience of managing a complete software project cycle.",
+    title: "Co-Leader",
+    subtitle: "Coding Club",
+    des: "Work on cool projects while fostering a learning and collaborative environment.",
   },
   {
     id: 2,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Will learn this soon in near future !",
+    title: "Navigator",
+    subtitle: "Rocketry Design Team",
+    des: "Contribute to the development of the rocket’s guidance system.",
   },
   {
     id: 3,
-    icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Will learn this soon in near future !",
+    title: "Event Coordinator",
+    subtitle: "TMU Engineering Department",
+    des: "I organize engineering-related events.",
   }
 ];
 
