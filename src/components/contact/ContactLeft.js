@@ -10,7 +10,7 @@ const ContactLeft = () => {
         <div className="flex flex-col items-center mb-16">
           <h3 className="text-3xl font-bold text-grey">FIND ME ON</h3>
         </div>
-        <div className="flex gap-32">
+        <div className="flex gap-6">
           <div className="flex flex-col items-center">
             <span className="bannerIcon">
               <a href="https://github.com/rohanuppal" target="_blank" rel="noopener noreferrer">
@@ -25,7 +25,7 @@ const ContactLeft = () => {
                 <SiGmail />
               </a>
             </span>
-            <a className="text-white mt-2">rohan.uppal@hotmail.com</a>
+            <a className="text-white mt-2">Email</a>
           </div>
           <div className="flex flex-col items-center">
             <span className="bannerIcon">
