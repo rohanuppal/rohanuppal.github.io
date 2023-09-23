@@ -19,7 +19,7 @@ const Education = () => {
           <ResumeCard
             title="B Eng. - Computer Engineering"
             subTitle1="Toronto Metropolitan University (2020 - 2024)"
-            result="3.5 GPA"
+            result="3.6 GPA"
             des="Relevant Courses: Data Algorithms, Software Design, Computer Architecture, Operating Systems"
           />
           <ResumeCard
