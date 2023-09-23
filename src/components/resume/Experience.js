@@ -13,11 +13,11 @@ const Experience = () => {
       <div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Technology Analyst Intern"
+            title="Analyst Intern"
             subTitle1="Deloitte"
-            subTitle2="May 2023 - Present"
+            subTitle2="May 2023 - Aug 2023"
             result="TORONTO"
-            des="Developed webpages, maintained SQL databases, and conducted e-discovery and computer forensics."
+            des="Developed webpages, maintained SQL databases, and created Python and PowerShell scripts."
           />
           <ResumeCard
             title="Computer Eng. Intern"
